@@ -1,0 +1,245 @@
+A0: !!python/tuple
+- 0.1246023081390128
+- difficulty: 0.9381846635367762
+  num_negative: 9592
+  num_positive: 632
+A1: !!python/tuple
+- 0.15188774710779812
+- difficulty: 0.9370529327610873
+  num_negative: 10480
+  num_positive: 704
+A2: !!python/tuple
+- 0.24922276447754038
+- difficulty: 0.9227941176470589
+  num_negative: 5271
+  num_positive: 441
+A3: !!python/tuple
+- 0.3778287889461589
+- difficulty: 0.9219236760124611
+  num_negative: 4735
+  num_positive: 401
+A4: !!python/tuple
+- 0.2836380401806585
+- difficulty: 0.9312536106296938
+  num_negative: 6448
+  num_positive: 476
+A5: !!python/tuple
+- 0.3514007427851234
+- difficulty: 0.9572482638888888
+  num_negative: 8822
+  num_positive: 394
+A6: !!python/tuple
+- 0.4083148643142363
+- difficulty: 0.9194704049844237
+  num_negative: 5903
+  num_positive: 517
+B0: !!python/tuple
+- 0.15783230197224635
+- difficulty: 0.9297957695113056
+  num_negative: 10198
+  num_positive: 770
+B1: !!python/tuple
+- 0.18750991372677608
+- difficulty: 0.9087514934289128
+  num_negative: 6085
+  num_positive: 611
+B2: !!python/tuple
+- 0.2031808042890792
+- difficulty: 0.9176991150442477
+  num_negative: 6222
+  num_positive: 558
+B3: !!python/tuple
+- 0.2849293475129191
+- difficulty: 0.9507148231753197
+  num_negative: 10108
+  num_positive: 524
+B4: !!python/tuple
+- 0.3481033257294182
+- difficulty: 0.9211840228245364
+  num_negative: 7749
+  num_positive: 663
+B5: !!python/tuple
+- 0.42877385006797897
+- difficulty: 0.9492592592592592
+  num_negative: 7689
+  num_positive: 411
+B6: !!python/tuple
+- 0.3822680979249035
+- difficulty: 0.940163281561131
+  num_negative: 9443
+  num_positive: 601
+C0: !!python/tuple
+- 0.1394565651475738
+- difficulty: 0.9295088113985752
+  num_negative: 9916
+  num_positive: 752
+C1: !!python/tuple
+- 0.1682252192285701
+- difficulty: 0.9572004028197382
+  num_negative: 11406
+  num_positive: 510
+C2: !!python/tuple
+- 0.25547995683200053
+- difficulty: 0.9109502032520325
+  num_negative: 7171
+  num_positive: 701
+C3: !!python/tuple
+- 0.297592009849988
+- difficulty: 0.9078226208271052
+  num_negative: 7288
+  num_positive: 740
+C4: !!python/tuple
+- 0.3621992261868445
+- difficulty: 0.9318791946308724
+  num_negative: 8331
+  num_positive: 609
+C5: !!python/tuple
+- 0.30911594830170364
+- difficulty: 0.9365997942386831
+  num_negative: 7283
+  num_positive: 493
+C6: !!python/tuple
+- 0.4272968542172105
+- difficulty: 0.9219022687609075
+  num_negative: 6339
+  num_positive: 537
+D0: !!python/tuple
+- 0.1593887875629516
+- difficulty: 0.9513742071881607
+  num_negative: 10800
+  num_positive: 552
+D1: !!python/tuple
+- 0.1861236060282479
+- difficulty: 0.9695767195767195
+  num_negative: 11728
+  num_positive: 368
+D2: !!python/tuple
+- 0.26500239582450646
+- difficulty: 0.9278260869565218
+  num_negative: 6402
+  num_positive: 498
+D3: !!python/tuple
+- 0.27271258555613415
+- difficulty: 0.9213095238095238
+  num_negative: 7739
+  num_positive: 661
+D4: !!python/tuple
+- 0.3746821677675681
+- difficulty: 0.9573791348600509
+  num_negative: 10535
+  num_positive: 469
+D5: !!python/tuple
+- 0.3276503410398378
+- difficulty: 0.8379174852652259
+  num_negative: 5118
+  num_positive: 990
+D6: !!python/tuple
+- 0.41812796135097585
+- difficulty: 0.9450474898236092
+  num_negative: 8358
+  num_positive: 486
+E0: !!python/tuple
+- 0.16310180598730753
+- difficulty: 0.9559925093632958
+  num_negative: 12252
+  num_positive: 564
+E1: !!python/tuple
+- 0.18943935493932226
+- difficulty: 0.9362968591691996
+  num_negative: 7393
+  num_positive: 503
+E2: !!python/tuple
+- 0.24477458943321131
+- difficulty: 0.9590363704536933
+  num_negative: 10231
+  num_positive: 437
+E3: !!python/tuple
+- 0.26867511861093596
+- difficulty: 0.9544432918395575
+  num_negative: 11041
+  num_positive: 527
+E4: !!python/tuple
+- 0.2884749953971977
+- difficulty: 0.9769456681350954
+  num_negative: 13306
+  num_positive: 314
+E5: !!python/tuple
+- 0.3596638606651929
+- difficulty: 0.9342517921146953
+  num_negative: 8341
+  num_positive: 587
+E6: !!python/tuple
+- 0.3812038475121955
+- difficulty: 0.9632380952380952
+  num_negative: 10114
+  num_positive: 386
+F0: !!python/tuple
+- 0.16023882722097252
+- difficulty: 0.9647181233446841
+  num_negative: 10199
+  num_positive: 373
+F1: !!python/tuple
+- 0.22376957958475005
+- difficulty: 0.9216058763931104
+  num_negative: 7277
+  num_positive: 619
+F2: !!python/tuple
+- 0.22798098694680757
+- difficulty: 0.9416018998272885
+  num_negative: 8723
+  num_positive: 541
+F3: !!python/tuple
+- 0.28181524684232384
+- difficulty: 0.9160638939119952
+  num_negative: 6079
+  num_positive: 557
+F4: !!python/tuple
+- 0.31441864402078196
+- difficulty: 0.9364444444444444
+  num_negative: 8428
+  num_positive: 572
+F5: !!python/tuple
+- 0.36084147617827916
+- difficulty: 0.956959706959707
+  num_negative: 11495
+  num_positive: 517
+F6: !!python/tuple
+- 0.3130632584770445
+- difficulty: 0.9757975797579758
+  num_negative: 14192
+  num_positive: 352
+G0: !!python/tuple
+- 0.15468205689948697
+- difficulty: 0.9812425860023725
+  num_negative: 13235
+  num_positive: 253
+G1: !!python/tuple
+- 0.21242074611126588
+- difficulty: 0.987801293356849
+  num_negative: 13442
+  num_positive: 166
+G2: !!python/tuple
+- 0.2526981459108636
+- difficulty: 0.9938905180840665
+  num_negative: 16268
+  num_positive: 100
+G3: !!python/tuple
+- 0.2756963292275235
+- difficulty: 0.9929845266194598
+  num_negative: 15145
+  num_positive: 107
+G4: !!python/tuple
+- 0.3079661021872696
+- difficulty: 0.9876262626262626
+  num_negative: 11733
+  num_positive: 147
+G5: !!python/tuple
+- 0.3550389546676869
+- difficulty: 0.9564967860422406
+  num_negative: 8333
+  num_positive: 379
+G6: !!python/tuple
+- 0.5691975913315189
+- difficulty: 0.9664423740510697
+  num_negative: 11203
+  num_positive: 389
