@@ -1,0 +1,88 @@
+name: miscgrasp
+group_name: franka
+gripper_types: [
+  'franka',
+]
+
+# network
+fix_seed: true
+network: misc  #
+backbone: misc # baseline_conv
+volume_size: 0.4
+volume_res: 80
+use_projection: true
+multi_scale: [
+  misc
+]
+
+# loss
+loss: [vgn_adpt, grasp_siam]
+val_metric: []
+key_metric_name: loss_vgn
+key_metric_prefer: lower
+use_gripper_param: false
+
+# lr
+total_step: 265000
+val_interval: 1325
+save_interval: 1325
+train_log_step: 1325
+lr_type: 1cycle
+#lr_cfg:  # exp
+#  lr_init: 8e-4  # 4e-4
+#  lr_min: 2e-5
+#  gamma: 0.5
+#  decay_step: 26500
+lr_cfg:  # 1cycle
+  lr_init: 4e-5  # it just shows; adjust params below to adjust `lr_init`
+  max_lr: 4e-4
+  div_factor: 10
+  final_div_factor: 20
+multi_gpus: false
+use_amp: false
+
+# dataset
+source: egad  # vgn
+use_sep: true
+worker_num: 8
+train_dataset_type: pinch_franka_gen
+pos_num: 8
+neg_num: 16
+
+val_set_list:
+  -  # 表示[{'name': ......}]
+    name: vgn_syn
+    type: pinch_franka_gen
+    cfg: {}
+
+val_gripper_types: [
+  'franka'
+]
+
+#grp2id:
+#  franka: 0
+#  robotiq_2f_85: 1
+#  robotiq_2f_140: 2
+#  wsg_32: 3
+#  ezgripper: 4
+#  sawyer: 5
+#  wsg_50: 6
+#  rg2: 7
+#  barrett_hand_2f: 8
+#  kinova_3f: 9
+#  robotiq_3f: 10
+#  barrett_hand: 11
+#
+#id2grp:
+#  0: franka
+#  1: robotiq_2f_85
+#  2: robotiq_2f_140
+#  3: wsg_32
+#  4: ezgripper
+#  5: sawyer
+#  6: wsg_50
+#  7: rg2
+#  8: barrett_hand_2f
+#  9: kinova_3f
+#  10: robotiq_3f
+#  11: barrett_hand
