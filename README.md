@@ -106,7 +106,7 @@ MISCGrasp is evaluated in simulated settings and physical tabletop decluttering 
 If you use this work in academic research, please cite:
 
 ```bibtex
-@INPROCEEDINGS{11246166,
+@INPROCEEDINGS{fan2025miscgrasp,
   author={Fan, Qingyu and Cai, Yinghao and Li, Chao and Jiao, Chunting and Zheng, Xudong and Lu, Tao and Liang, Bin and Wang, Shuo},
   booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={MISCGrasp: Leveraging Multiple Integrated Scales and Contrastive Learning for Enhanced Volumetric Grasping}, 
